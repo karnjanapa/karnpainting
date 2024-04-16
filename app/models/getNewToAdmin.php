@@ -4,6 +4,8 @@
 // Require Database Connection
 require '../config/connectdb.php';
 
+
+
 // SQL Query to select articles, ordered by _date in descending order
 $sql = "SELECT * FROM `articles` ORDER BY `_date` DESC";
 

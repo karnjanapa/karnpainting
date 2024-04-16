@@ -13,7 +13,6 @@
 }
 html,body{
   background-color: #ebf3f6f6;
-  /* background-image: url(../photos/background1.jpg); */
   max-width:1150px;
   width:100%;
   margin:0 auto;
@@ -197,6 +196,39 @@ nav .wrapper{
   width:50%;
   padding-left: 5px;
 }
+
+/* =================================================API Musées=========================================== */
+
+        #allSection {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 /* ======================================================painting============================================= */
 h3{
   font-size:0.3rem;

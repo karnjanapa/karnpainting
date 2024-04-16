@@ -3,7 +3,6 @@
 // Require Database Connection
 require '../config/connectdb.php';
 
-
 // Check if both titles and description are set in the POST data
 if (isset($_POST['titles']) && isset($_POST['description'])) {
 

@@ -4,7 +4,6 @@
 require '../config/connectdb.php';
 
 
-
 // SQL query to select all comments from the 'comments' table for a specific user, ordered by the '_date' column in descending order.
 $sql = "SELECT * FROM `comments` WHERE user_id = :user_id ORDER BY `_date` DESC";
 

@@ -2,7 +2,6 @@
 // Including the database connection file
 require '../config/connectdb.php';
 
-
 // Check if the 'Comments' parameter is set in the POST request
 if (isset($_POST['Comments'])) {
     // Retrieve the comment from the POST data

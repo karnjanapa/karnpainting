@@ -3,6 +3,7 @@
 // Including the file that contains the database connection configuration
 require '../config/connectdb.php';
 
+
 // SQL query to select all records from the 'articles' table and order them by the '_date' column in descending order
 $sql = "SELECT * FROM `articles` ORDER BY `_date` DESC";
 

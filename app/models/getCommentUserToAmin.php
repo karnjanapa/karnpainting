@@ -3,6 +3,7 @@
 // Including the file that connects to the database
 require '../config/connectdb.php';
 
+
 // SQL query to select all comments from the 'comments' table, ordered by the '_date' column in descending order.
 $sql = "SELECT * FROM `comments` ORDER BY `_date` DESC";
 
