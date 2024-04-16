@@ -1,13 +1,12 @@
-
 <?php
 // Start a session
 session_start();
 
 // Define database connection parameters
 $host = 'localhost'; // Database host
-$dbname = 'karnpainting'; // Database name
-$username = 'root'; // Database username
-$password = ''; // Database password
+$dbname = 'gretaxao_sommaika'; // Database name
+$username = 'gretaxao_sommaika'; // Database username
+$password = 'SommaiKa2023!'; // Database password
 
 // Create a PDO object to connect to the database
 $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
@@ -22,4 +21,3 @@ try {
     // If connection fails, display an error message
     die("Connection failed: " . $e->getMessage());
 }
-

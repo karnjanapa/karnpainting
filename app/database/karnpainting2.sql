@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 16 avr. 2024 à 10:32
+-- Généré le : mar. 16 avr. 2024 à 11:47
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.2.12
 
@@ -117,7 +117,10 @@ INSERT INTO `_user` (`user_id`, `name`, `e_mail`, `password`, `is_admin`) VALUES
 (53, 'kevni', 'kevni@gmail.com', '$2y$10$80Y9j2FHOqrk/f3yXqxMt.YfpWjcaEnkoe/zLe5A3c6jkYPPPktTe', 15),
 (58, 'ppppp', 'ppppp@gmail.com', '$2y$10$R4CSZQQOjkImh4AxTa0EF.k8uCN2.oOasuGq3chKc5rFexIDL2g.u', 0),
 (59, 'hhhh', 'kevkev@gmail.com', '$2y$10$5sfPzvDgGQmT5g584J1Cs.Xmjmgc7tGSo7qaGOuS1ktW7S0Y6Yi0e', 0),
-(61, 'mama', 'mama@gmail.com', '$2y$10$zTZdJbSMhSHowlA.p16SzuJdohXp7rMC48QR2HgxQNNY00NTnNmE.', 0);
+(61, 'mama', 'mama@gmail.com', '$2y$10$zTZdJbSMhSHowlA.p16SzuJdohXp7rMC48QR2HgxQNNY00NTnNmE.', 0),
+(64, 'kevin', 'kkkk@gmail.com', '$2y$10$Sx2xI77ztVIsWRYImQwtFeI3QKdLBKZnk1vwBFPajm.OfGucy1ccC', 0),
+(65, 'karn', 'karnkarn@gmail.com', '$2y$10$sRvjGgaZvZLVa7P4lfEK8ONRnRUgKSDVphhHZb9cWUXdu5WwXvJ9a', 0),
+(66, 'kevin', 'kevin@gmail.com', '$2y$10$d6AMb.IvjF160zeCgaFKDeNeAvWGfoplOI6Kk0fwNXmfxIeE327fq', 15);
 
 --
 -- Index pour les tables déchargées
@@ -182,7 +185,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT pour la table `_user`
 --
 ALTER TABLE `_user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 
 --
 -- Contraintes pour les tables déchargées
